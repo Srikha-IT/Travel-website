@@ -44,7 +44,7 @@
       align-items: center;
       margin:0;
       padding-top: 10px;
-      gap: 70px;
+      gap: 15px;
       list-style: none;
       font-size: 18px;
       font-weight: bold;
@@ -473,17 +473,22 @@
         position: static;
         width: 100%;
         height: auto;
-        padding-left: 0;
         text-align: center;
         grid-template-columns: 1fr;
-        gap: 30px;
-        padding-right: 0;
+        row-gap: 20px;
       }
       .box {
+        height: auto;
+        padding: 20px 0;
         font-size: 15px;
       }
+      .sub5 {
+        height: 99.5%;
+      }
       .iconbox {
-        padding: 0 50px 0 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       #mail {
         width: 100%;
@@ -494,6 +499,22 @@
         height: 80%;
         font-size: 18px;
       }
+      .sub1 p {
+        line-height: 2;
+      }
+      .sub2 li a {
+        line-height: 2;
+      }
+      .sub3 ul {
+        line-height: 2;
+      }
+      .sub4 ul {
+        line-height: 2;
+      }
+      #sub5p1 {
+        margin: 0;
+        padding: 0;
+      }
       .iconbox2 ::placeholder {
         font-size: 12px;
       }
@@ -502,7 +523,7 @@
         width: 100%;
         height: auto;
         padding-left: 0;
-        padding: 2px 20px 30px 20px;
+        padding: 1px 20px 5px 20px;
         text-align: center;
         font-size: 12px;
       }
